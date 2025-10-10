@@ -8,9 +8,10 @@ If there are games that you would like to display on your profile, but are not o
 Firstly, you should know what games or apps **do not** go in this repository. The following are not suitable for this plugin:
 
 - Virtual Console injects
-- Home Menu apps (Friend List, Browser, etc.)
+  - Regular Virtual Console games are allowed
+- Applets (Friend List, Browser, Amiibo Settings, etc.)
 - vWii and any Wii games
-- Games with a blank `longname_en` tag in their [meta.xml](https://wiiubrew.org/wiki/Meta.xml)
+  - Includes Gamecube games from Nintendont
 - Homebrew applications
 - Games already in this repository
 
@@ -51,7 +52,7 @@ That's it for getting the media! You can skip down to [formatting the icons](#fo
 
 ## Manually copying from FTP server
 > [!IMPORTANT]
-> This method is tedious and not recommended unless you know what you're doing.
+> This method is difficult and not recommended unless you know what you're doing.
 
 > [!NOTE]
 > This method involves accessing your system's NAND or USB.
