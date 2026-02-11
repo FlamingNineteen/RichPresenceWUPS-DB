@@ -85,6 +85,10 @@ Once you've changed the keys, rename each image icon accordingly.
 ## Create a Pull Request
 Once you are satisfied with the games you've added, you can double check that they will display correctly before creating a pull request. 
 
-Go to the directory where you keep the computer application for the Rich Presence plugin, and edit the `save.json` file so that the `repo` key is set to `username/repository`, where `username` is your username and `repository` is the name of your cloned repository. Then enter the game on your Wii U with the Rich Presence plugin on and the computer application running.
+You can execute program using your repository to test out the images. In a command prompt, add `repo [USERNAME]/[REPOSITORY]` as arguments. For example:
+```
+WURP-Windows repo FlamingNineteen/RichPresenceWUPS-DB
+python3 discord-script.py repo FlamingNineteen/RichPresenceWUPS-DB
+```
 
 If all looks good, you can create a pull request to the original repository so the icons can get added for everyone to use.
